@@ -292,12 +292,14 @@ Listar arquivos:
 
 ```bash
 find . -name '*:Zone.Identifier' -type f -print
+find . -name '*Zone.Identifier' -type f -print
 ```
 
 Apagar arquivos:
 
 ```bash
 find . -name '*:Zone.Identifier' -type f -delete
+find . -name '*Zone.Identifier' -type f -delete
 ```
 
 ---
